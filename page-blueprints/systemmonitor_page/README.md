@@ -1,4 +1,4 @@
-## Pi-Hole Blueprint Home-Assistant
+##System Monitor Blueprint Home-Assistant
 ## More_page for Dwains Dashboard v3
 ##### Created by Bourner
 ##### Note: This page is based on the work of [noodlemctwoodle](https://github.com/noodlemctwoodle). 
@@ -20,7 +20,7 @@ Enable systemmonitor in your configuration.yaml.
 You need at least these arguments:
 
 ```
-sensors:
+sensor:
 - platform: systemmonitor
   resources:
     - type: disk_use_percent
